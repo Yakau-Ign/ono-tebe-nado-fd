@@ -1,5 +1,3 @@
-/* #2 Оно тебе надо - Главная */
-
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -48,10 +46,6 @@
     display: inline-block;
     width: 100%;
 }
-
-/* Тут заканчиваеться Шапка */
-
-/* Оно тебе надо начало с кнопкой*/
 
 .cover {
     position: relative;
@@ -135,8 +129,6 @@
     padding: 11.5px 31.5px;
     margin-left: 90px;
 }
-
-/* Начало лотов*/
 
 .lots {
     margin: 0 24px 120px;
