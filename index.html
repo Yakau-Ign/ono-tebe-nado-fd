@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="page">
     <header class="header">
@@ -39,10 +39,10 @@
         />
       </a>
       <address class="address">
-        <div class="header-address">
-          <a href="tel:+99995555555" class="number"> +9 999 555 5555 </a>
-          <a href="mailto:info@sobaka.ge" class="mail"> info@sobaka.ge </a>
-          <span class="address_company">
+        <div class="address-contact">
+          <a href="tel:+99995555555" class="contacts-company"> +9 999 555 5555 </a>
+          <a href="mailto:info@sobaka.ge" class="contacts-company"> info@sobaka.ge </a>
+          <span class="address-company">
             наб. Принсенграхт 263- 265, Амстердам
           </span>
         </div>
@@ -52,69 +52,75 @@
       <section class="cover">
         <div class="overlay">
           <h1 class="cover-title">
-            <span class="aligned-text aligned-text-left"> ОНО </span>
-            <span class="aligned-text aligned-text-center"> ТЕБЕ </span>
-            <span class="aligned-text aligned-text-right"> НАДО </span>
+            <span class="aligned-text aligned-text-left">ОНО</span>
+            <span class="aligned-text aligned-text-center">ТЕБЕ</span>
+            <span class="aligned-text aligned-text-right">НАДО</span>
           </h1>
           <div class="cover-description">
             <p class="cover-description-text">
               Аукцион вещей, в которые никто не верил
             </p>
-            <button class="bet-button">Сделать ставку</button>
-          </div>
+            <button type="button" class="bet-button" >
+              Сделать ставку
+            </button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots-heiding">Лоты</h2>
         <ul class="lots-card-list">
-          <li class="card-type-film">
-            <div class="overlay">
-              <article class="card-link">
-                <a href="#" class="card-title">
-                  Фильм режиссёра, который бросил киношколу
-                </a>
-                <p class="card-text">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                  ставка, если бы вы не знали, что режиссёр — Пол Томас
-                  Андерсон?
-                </p>
-              </article>
-            </div>
+          <li class="card-type card-type-film">
+            <div class="overlay"></div>
+              <a href="#" class="card-link">
+                <article class="card-info">
+                  <h3 class="card-title">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
+                  <p class="card-text">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                    ставка, если бы вы не знали, что режиссёр — Пол Томас
+                    Андерсон?
+                  </p>
+                </article>
+              </a>
           </li>
-          <li class="card-type-book">
-            <div class="overlay">
-              <article class="card-link">
-                <a href="#" class="card-title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </a>
-                <p class="card-text">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                  с переходами на древнеанглийский. В ней одновременно
-                  рассказывается о 16 июня 1904 года и об истории литературы,
-                  начиная с античных времён. И это всё накладывается на
-                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                  Джеймса Джойса?
-                </p>
-              </article>
-            </div>
+          <li class="card-type card-type-book">
+            <div class="overlay"></div>
+              <a href="#" class="card-link">
+                <article class="card-info">
+                  <h3 class="card-title">
+                    Книга, где описан один скучный день из жизни рекламного агента
+                  </h3>
+                  <p class="card-text">
+                    Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                    с переходами на древнеанглийский. В ней одновременно
+                    рассказывается о 16 июня 1904 года и об истории литературы,
+                    начиная с античных времён. И это всё накладывается на
+                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                    Джеймса Джойса?
+                  </p>
+                </article>
+              </a>
           </li>
-          <li class="card-type-picture">
-            <div class="overlay">
-              <article class="card-link">
-                <a href="#" class="card-title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </a>
-                <p class="card-text">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков... Сколько бы вы на такое поставили, если бы не знали,
-                  что это — одна из революционных работ Кандинского?
-                </p>
-              </article>
-            </div>
+          <li class="card-type card-type-picture">
+            <div class="overlay"></div>  
+              <a href="#" class="card-link">
+                <article class="card-info">
+                  <h3 class="card-title">
+                    Картина, которую повторит даже 5-летний сын маминой подруги
+                  </h3>
+                  <p class="card-text">
+                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                    котиков... Сколько бы вы на такое поставили, если бы не знали,
+                    что это — одна из революционных работ Кандинского?
+                  </p>
+                </article>  
+              </a>
           </li>
         </ul>
-        <a href="#" class="lots-look-more-link"> посмотреть больше </a>
+        <a href="#" class="lots-look-more-link"> 
+          посмотреть больше 
+        </a>
       </section>
       <section class="about">
         <div class="about-logo">
@@ -125,7 +131,9 @@
           />
         </div>
         <div class="about-info">
-          <h3 class="about-title">Об аукционе</h3>
+          <h2 class="about-title">
+            Об аукционе
+          </h2>
           <p class="about-text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -145,11 +153,11 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer-address">
-        <div class="footer-address-contact">
-          <a href="tel:+99995555555" class="number"> +9 999 555 5555 </a>
-          <a href="mailto:info@sobaka.ge" class="mail"> info@sobaka.ge </a>
-          <span class="address_company">
+      <address class="address footer-address">
+        <div class="address-contact">
+          <a href="tel:+99995555555" class="contacts-company"> +9 999 555 5555 </a>
+          <a href="mailto:info@sobaka.ge" class="contacts-company"> info@sobaka.ge </a>
+          <span class="address-company">
             наб. Принсенграхт 263- 265, Амстердам
           </span>
         </div>
